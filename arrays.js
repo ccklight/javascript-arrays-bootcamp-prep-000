@@ -4,12 +4,10 @@ function addElementToBeginningOfArray (array, element) {
   return [element,...array];
 }
  function destructivelyAddElementToBeginninfOfArray (array, element){
- array.unshift(element);
- 
-   array.unshift("array");
-   array.unshift("element");
-   return [element,...array];
-   
+   array.unshift(element);  
+   return array;
+ }
+  
  function addElementToEndfArray(array, element){
    return [...array, element]}
    function destructively AddElementToEndOfArray(array, element){
